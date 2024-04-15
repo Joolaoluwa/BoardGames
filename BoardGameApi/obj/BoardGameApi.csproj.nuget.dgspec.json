@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\BoardGameApi.csproj": {}
+    "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameAPI\\BoardGameApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\BoardGameApi.csproj": {
+    "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameAPI\\BoardGameApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\BoardGameApi.csproj",
+        "projectUniqueName": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameAPI\\BoardGameApi.csproj",
         "projectName": "BoardGameApi",
-        "projectPath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\BoardGameApi.csproj",
+        "projectPath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameAPI\\BoardGameApi.csproj",
         "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\obj\\",
+        "outputPath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config"

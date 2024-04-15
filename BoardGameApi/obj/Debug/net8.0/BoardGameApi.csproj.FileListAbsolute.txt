@@ -32,3 +32,4 @@ C:\Users\Joshua\Desktop\My_folders\BoardGames\BoardGameApi\obj\Debug\net8.0\Boar
 C:\Users\Joshua\Desktop\My_folders\BoardGames\BoardGameApi\obj\Debug\net8.0\BoardGameApi.genruntimeconfig.cache
 C:\Users\Joshua\Desktop\My_folders\BoardGames\BoardGameApi\obj\Debug\net8.0\ref\BoardGameApi.dll
 C:\Users\Joshua\Desktop\My_folders\BoardGames\BoardGameApi\bin\Debug\net8.0\appsetting.Staging.json
+C:\Users\Joshua\Desktop\My_folders\BoardGames\BoardGameApi\obj\Debug\net8.0\BoardGameApi.sourcelink.json
