@@ -1,5 +1,6 @@
 // using BoardGameApi.Extensions;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,8 +43,41 @@ else
 app.UseHttpsRedirection();
 app.UseCors();
 
-app.MapGet("/error", [EnableCors("AnyOrigin")] () => Results.Problem());
-app.MapGet("/error/test", [EnableCors("AnyOrigin")] () => {throw new Exception("error...");});
+app.MapGet("/error", 
+[ResponseCache(NoStore = true)]
+[EnableCors("AnyOrigin")] () => Results.Problem());
+
+app.MapGet("/error/test", 
+[ResponseCache(NoStore = true)]
+[EnableCors("AnyOrigin")] () => {throw new Exception("error...");});
+
+app.MapGet("/cod/test" ,
+[EnableCors("AnyOrigin")]
+[ResponseCache(NoStore = true)]
+() => Results.Text(
+    "<script>"
+    + "window.alert('Your client supports Javascript"
+    + "\\r\\n\\r\\n"
+    + $"Server Time(UTC): {DateTime.UtcNow.ToString("o")}"
+    + "\\r\\n"
+    + "Client Time (UTC): ' + new Date().toISOString());"
+    + "</script>"
+    +"<noscript>Your client does not support JavaScript</noscript>",
+"text/html"
+    ));
+
+// app.MapGet("/cod/test",
+// [EnableCors("AnyOrigin")]
+// [ResponseCache(NoStore = true)] () =>
+// Results.Text("<script>" +
+// "window.alert('Your client supports JavaScript!" +
+// "\\r\\n\\r\\n" +
+// $"Server time (UTC): {DateTime.UtcNow.ToString("o")}" +
+// "\\r\\n" +
+// "Client time (UTC): ' + new Date().toISOString());" +
+// "</script>" +
+// "<noscript>Your client does not support JavaScript</noscript>",
+// "text/html"));
 
 app.MapControllers();
 

@@ -9,6 +9,7 @@ namespace BoardGameApi.Controller
 {
     [Route("BoardGameList")]
     [ApiController]
+    [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 60)]
     public class BoardGameController : ControllerBase
     {
         private readonly ILogger<BoardGameController> _logger;
