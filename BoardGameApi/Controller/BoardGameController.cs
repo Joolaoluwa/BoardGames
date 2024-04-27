@@ -51,8 +51,17 @@ namespace BoardGameApi.Controller
                         MinPlayers = 1,
                         MaxPlayers = 5
                     }
-                }
-            };
+                    },
+                    LinkDto = new List<LinkDTO>()
+                    {
+                        new LinkDTO(
+                            Url.Action(null, "BoardGames", null, Request.Scheme)!,
+                            "self",
+                            "GET"
+                        ),
+                    }
+                };
+            }
         }
         // public IEnumerable<BoardGame> GetGames()
         // {
