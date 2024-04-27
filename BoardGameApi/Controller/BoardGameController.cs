@@ -55,7 +55,7 @@ namespace BoardGameApi.Controller
                     LinkDto = new List<LinkDTO>()
                     {
                         new LinkDTO(
-                            Url.Action(null, "BoardGames", null, Request.Scheme)!,
+                            Url.Action(null, "BoardGamesList", null, Request.Scheme)!,
                             "self",
                             "GET"
                         ),
