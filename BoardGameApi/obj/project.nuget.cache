@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v58K3Y4P+7YbhA3jtl4OkaPNLQi7zrqRUg2IZhwSwY+mA2A7b6h9/MShuxHCtb1UUKjT9xi31iL8Ulm5zM7KXg==",
+  "dgSpecHash": "KmueuyjfkjxYevC6kAe4XojcgtUi11tU27XmM1k0th7czH5D5wjgg31w/5vBuzxulUevnDdXSu7Jh0lGl1FzqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameapi\\BoardGameApi.csproj",
+  "projectFilePath": "C:\\Users\\Joshua\\Desktop\\My_folders\\BoardGames\\BoardGameApi\\BoardGameApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joshua\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\Joshua\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
